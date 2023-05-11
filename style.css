@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: palevioletred;
+    height: 200px;
+    width: 100%;
+}
+.budgetTitle{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+.headerIncome{
+    width: 200px;
+    background-color: pink;
+    height: 80px;
+    position: relative;
+    margin-top: 97px;
+}
+.budgetIncome--text{
+    text-align: center;
+    font-size: small;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.budgetIncome--value{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+.headerExpense{
+    width: 200px;
+    background-color: pink;
+    height: 80px;
+    margin-top: 97px;
+    float: right;
+    margin-top: -80px;
+
+}
+.budgetExpense--text{
+    text-align: center;
+    font-size: small;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.budgetExpense--value{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+.bottom{
+    margin-top: 100px;
+    margin-left: 35%;
+}
+.addType{
+    height: 30px;
+    width: 50px;
+    background-color: pink;
+    border-color: blanchedalmond;
+}
+.addDescription{
+    height: 25px;
+    width: 300px;
+    
+}
+hr{
+    color: pink;
+    margin-top: 30px;
+}
+.expenses{
+    float: right;
+    margin-top: -30px;
+    margin-right: 240px;
+    
+}
+.income{
+    margin-left: 240px;
+}
+.incomeTitle{
+    color: palevioletred;
+}
+.expensesTitle{
+    color: palevioletred;
+}
+.budgetValue{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+    font-size: larger;
+}

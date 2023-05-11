@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>budget app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="budgetTitle">
+            My Budget app
+        </div>
+        <div class="budgetValue">345.64</div>
+        <div class=" headerIncome">
+            <div class="budgetIncome--text">Income</div>
+            <div class="budgetIncome--value">+ 4,300.00</div>
+        </div>   
+        <div class=" headerExpense">
+            <div class="budgetExpense--text">Expense</div>
+            <div class="budgetExpense--value">-2,000</div>
+        </div>   
+    </div>
+    <div class="bottom">
+        <div class="add">
+          <div class="addContainer">
+            <select class="addType">
+              <option value="inc" selected>+</option>
+              <option value="exp">-</option>
+            </select>
+            <input
+              type="text"
+              class="addDescription"
+              placeholder="Add description"
+            />
+            <input type="number" class="addValue" placeholder="Value" />
+          </div>
+        </div>
+    </div>
+    <button class="addBtn">click me</button>
+    <hr>
+    <div class="container clearfix">
+        <div class="income">
+          <h2 class="incomeTitle">Income</h2>
+  
+          <div class="incomeList">
+            <!--
+            <div class="item clearfix" id="income-0">
+                <div class="item__description">Salary</div>
+                <div class="right clearfix">
+                    <div class="item__value">+ 2,100.00</div>
+                    <div class="item__delete">
+                        <button class="item--delete--btn">
+                            <ion-icon name="trash"><ion-icon name="close"></ion-icon></ion-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="item clearfix" id="income-1">
+                <div class="item__description">Sold car</div>
+                <div class="right clearfix">
+                    <div class="item__value">+ 1,500.00</div>
+                    <div class="item__delete">
+                        <button class="item__delete--btn"><ion-icon name="close"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            -->
+          </div>
+        </div>
+  
+        <div class="expenses">
+          <h2 class="expensesTitle">Expenses</h2>
+  
+          <div class="expensesList">
+            <!--
+            <div class="item clearfix" id="expense-0">
+                <div class="item__description">Apartment rent</div>
+                <div class="right clearfix">
+                    <div class="item__value">- 900.00</div>
+                    <div class="item__percentage">21%</div>
+                    <div class="item__delete">
+                        <button class="item__delete--btn"><ion-icon name="close"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item clearfix" id="expense-1">
+                <div class="item__description">Grocery shopping</div>
+                <div class="right clearfix">
+                    <div class="item__value">- 435.28</div>
+                    <div class="item__percentage">10%</div>
+                    <div class="item__delete">
+                        <button class="item__delete--btn"><ion-icon name="close"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="availableBalance"></div>
+    <script src="java.js"></script>
+</body>
+</html>
